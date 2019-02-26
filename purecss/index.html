@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+       
+        <input type="radio" name="images" id="i1" checked>
+        <input type="radio" name="images" id="i2">
+        <input type="radio" name="images" id="i3">
+       
+        <div class="slide-img" id="one">
+            <img src="../img-example/img-01.jpg">
+            
+            <label for="i3" class="prev"></label>
+            <label for="i2" class="next"></label>
+        </div>
+        
+        <div class="slide-img" id="two">
+            <img src="../img-example/img-02.jpg">
+            
+            <label for="i1" class="prev"></label>
+            <label for="i3" class="next"></label>
+        </div>
+        
+        <div class="slide-img" id="three">
+            <img src="../img-example/img-03.jpg">
+            
+            <label for="i2" class="prev"></label>
+            <label for="i1" class="next"></label>
+        </div>
+        
+        <div class="nav">
+            <label for="i1" class="dots" id="dot1"></label>
+            <label for="i2" class="dots" id="dot2"></label>
+            <label for="i3" class="dots" id="dot3"></label>
+        </div>
+    </div>
+</body>
+</html>
+
+
