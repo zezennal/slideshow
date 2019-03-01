@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>glide js</title>
+    <title>swipeshow</title>
     
-    <link rel="stylesheet" href="../gliderjs/glider.min.css">
+    <link rel="stylesheet" href="glider.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    
-    <div class="glider-contain multiple">
+   <div class="glider-contain multiple">
         <h1>User Testimonials</h1>
         
         <button class="glider-prev">
@@ -20,31 +20,20 @@
         </button>
         
         <div class="glider">
+            <div>
+                <img src="../img-example/img-01.jpg" alt="">
+                <p>title</p>
+            </div>
             
-            <figure>
-                <blockquote>"this is my awesome little testimonial about this product."</blockquote>
-                <figcaption>John Doe</figcaption>
-            </figure>
+            <div>
+                <img src="../img-example/img-02.jpg" alt="">
+                <p>title</p>
+            </div>
             
-            <figure>
-                <blockquote>"this is my awesome little testimonial about this product."</blockquote>
-                <figcaption>John Doe</figcaption>
-            </figure>
-            
-            <figure>
-                <blockquote>"this is my awesome little testimonial about this product."</blockquote>
-                <figcaption>John Doe</figcaption>
-            </figure>
-            
-            <figure>
-                <blockquote>"this is my awesome little testimonial about this product."</blockquote>
-                <figcaption>John Doe</figcaption>
-            </figure>
-            
-            <figure>
-                <blockquote>"this is my awesome little testimonial about this product."</blockquote>
-                <figcaption>John Doe</figcaption>
-            </figure>
+            <div>
+                <img src="../img-example/img-03.jpg" alt="">
+                <p>title</p>
+            </div>
         </div>
         
         <button class="glider-next">
@@ -54,8 +43,10 @@
         
         <div id="dots" class="glider-dots"></div>
     </div>
+   
     
-    <script src="../gliderjs/glider.min.js"></script>
+    
+    <script src="glider.min.js"></script>
     
     <script>
     
@@ -69,7 +60,7 @@
                 next: '.glider-next'
             }
         });
-    
+        
     </script>
 </body>
 </html>
