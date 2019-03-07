@@ -4,20 +4,25 @@ body{
 }
 
 .glider-contain {
-     width: 85% !important;
-    margin-top: 2%;
-    margin-bottom: 5%;
+     width: 83% !important;
+}
+
+.glider{
+    margin: 0 auto;
+    height: 50vh;
 }
 
 .glider img{
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%; 
     height: 70%;
 }
 
 figure{
-    background: #fff;
     margin: 1.5em;
     padding: .7em;
+    text-align: center;
 }
 
 .glider-next{
@@ -28,4 +33,18 @@ figure{
 .glider-prev{
     left: -40px;
     top: 50%;
+}
+
+@media screen and (min-width: 620px){
+    .glider{
+        width: 80%;
+        height: 70%;
+    }
+    
+    .glider img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 90%;
+}
 }
